@@ -1,17 +1,21 @@
-# Typecasting = The process of converting a variable datatype into another data type
-#               str() int() float() bool()
-from variable import is_student
+# Typecasting = The process of converting a variable's data type into another data type
+#               str(), int(), float(), bool()
 
+# Original variables
 name = "narayaaana"
 age = 23
 cgpa = 7.84
 is_student = True
 
-cgpa = int(cgpa)
-age = str(age)
+print("Before typecasting:")
+print("age:", age, type(age))
+print("cgpa:", cgpa, type(cgpa))
+print()
 
-print(cgpa)
-print(age)
+# Typecasting
+cgpa = int(cgpa)   # float → int
+age = str(age)     # int → string
 
-
-
+print("After typecasting:")
+print("cgpa:", cgpa, type(cgpa))
+print("age:", age, type(age))

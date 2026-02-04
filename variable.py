@@ -1,41 +1,46 @@
-# variable = A container for a value string, integer, float, boolean
-#            A variable behaves as if it was the value it contains
+# variable = A container for a value (string, integer, float, boolean)
+#            A variable behaves as if it were the value it contains
 
-# String
-firstname = "Narayana"
-lastname = "Thota"
+# ---------- String ----------
+first_name = "Narayana"
+last_name = "Thota"
 email = "narayaaana11@gmail.com"
 
-print(firstname)
-print(lastname)
-print(f"firstname {firstname} lastname {lastname}")
-print(f"email {email}")
+print("First name:", first_name)
+print("Last name:", last_name)
+print(f"Full name: {first_name} {last_name}")
+print(f"Email: {email}")
+print()
 
-# Integer
+# ---------- Integer ----------
 age = 23
 quantity = 5
 
-print(f"your age is {age}")
-print(f"your are buying {quantity} items")
+print(f"Your age is {age}")
+print(f"You are buying {quantity} items")
+print()
 
-# Float
+# ---------- Float ----------
 price = 5.99
 cgpa = 7.84
 distance = 5.5
 
-print(f"your price is ${price}")
-print(f"your cgpa is {cgpa}")
-print(f"your distance is {distance}")
+print(f"Price: ${price}")
+print(f"CGPA: {cgpa}")
+print(f"Distance: {distance}")
+print()
 
-#boolean
+# ---------- Boolean ----------
 is_student = True
-print("are you a student?")
 for_sale = True
 
+print("Are you a student?")
 if is_student:
-    print("yes")
+    print("Yes")
 else:
-    print("no")
+    print("No")
 
 if for_sale:
-    print("The item is available")
+    print("The item is available for sale")
+else:
+    print("The item is not available")
