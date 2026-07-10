@@ -8,5 +8,5 @@ print("Radius entered:", radius)
 # Formula for area of a circle: π × r²
 area = math.pi * pow(radius, 2)
 
-# Printing the area rounded to 2 decimal places
+# Printing the area rounded to 2 decimal place
 print(f"The area of the circle is: {round(area, 2)} cm^2")
